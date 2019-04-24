@@ -110,7 +110,7 @@ Launch templates enable you to store launch parameters so that you do not have t
 # Install Apache Web Server and PHP 
 yum install -y php72 wget httpd24
 # Download Lab files 
-wget https://raw.githubusercontent.com/ecloudvalley/How-to-build-an-elastic-structure/master/index.php
+wget https://raw.githubusercontent.com/ecloudvalley/Auto-Scaling-With-Launch-Template/master/index.php
 mv index.php /var/www/html/
 # Turn on web server 
 chkconfig httpd on 
